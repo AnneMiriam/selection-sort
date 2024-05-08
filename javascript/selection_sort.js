@@ -1,5 +1,8 @@
 function selectionSort(arr) {
-  // type your code here
+  //* w3schools solution
+  // return arr.sort(function(a, b){return a-b})
+  //* freeCode solution (basically the same, but simplified)
+  return arr.sort((a, b) => a-b)
 }
 
 if (require.main === module) {
